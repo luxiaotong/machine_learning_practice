@@ -20,7 +20,8 @@ def save_sp500_tickers():
     with open('./python_programming_for_finance/sp500tickers.pickle', 'wb') as f:
         pickle.dump(tickers, f)
 
-    print(tickers)
+    # print(tickers)
+    return tickers
 
 
 save_sp500_tickers()
