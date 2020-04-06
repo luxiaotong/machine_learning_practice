@@ -16,7 +16,7 @@ def preprocess_data_for_labels(ticker):
         df["{}_{}d".format(ticker, d)] = (
             df[ticker].shift(-d) - df[ticker]) / df[ticker]
     df.fillna(0, inplace=True)
-    print(df)
+    # print(df)
     return tickers, df
 
 
