@@ -9,6 +9,8 @@ https://www.youtube.com/watch?v=xfzGZB4HhEE&list=WL&index=2&t=4s
 
 https://github.com/nickmccullum/algorithmic-trading-python
 
+https://iexcloud.io/docs/api
+
 #### Algorithmic Trading Process
 
 1. Collect data
